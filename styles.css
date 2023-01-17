@@ -1,0 +1,52 @@
+.imgProfile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-left: 4px solid #F1C40f;
+    border-top: 4px solid #F1C40F;
+    border-radius: 50%;
+  }
+body{
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: #2d388a;
+    background: linear-gradient(45deg, #2d388a, #00aeef) fixed ;
+
+}
+.pAboutMe {
+    width: 400px;
+    padding: 0px;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    margin-top: 20;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 13px;
+    color: #F1C40F;
+    font-weight: bold;
+}
+button{
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    background-color: #00aeef;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-align: center;
+}
+button:hover{
+    color: white;
+    background-color: #2d388a;
+
+}
+.center{
+    margin-top: 15px;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
